@@ -1,0 +1,39 @@
+@font-face {
+	font-family: Georgia;
+	src:url(../fonts/georgia.ttf);
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+.container {
+	font-family: Georgia;
+	width: 1000px;
+	margin-left: 50px;
+	margin-bottom: 100px;
+}
+
+.title {
+	font-family: 'Playfair Display';
+	font-size: 2em;
+	width: 800px;
+	margin: 50px;
+	background-color: #F8FF42;
+	padding: 20px;
+	position: absolute;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+#cover {
+	width: 100%;
+	height: 100%;
+	background: url(../images/trial.jpg) no-repeat;
+	background-size: 100%;
+	margin-bottom: 50px;
+
+}
